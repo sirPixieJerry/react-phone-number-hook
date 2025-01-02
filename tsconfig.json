@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "types": ["@testing-library/jest-dom", "jest"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node10",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "paths": {
+      "@test-utils": ["test-utils"]
+    }
+  },
+  "include": ["src", "jest.config.ts", "jest.setup.ts"],
+  "exclude": ["node_modules", "dist"]
+}
